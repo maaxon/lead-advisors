@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lead-advisors/static/css/main.d7dceabe.css",
-    "main.js": "/lead-advisors/static/js/main.4556dee5.js",
+    "main.js": "/lead-advisors/static/js/main.b14d9dc7.js",
     "static/media/AccordionSlide.png": "/lead-advisors/static/media/AccordionSlide.d11045f3833804e38f9d.png",
     "static/media/AccordionSlideMobile.png": "/lead-advisors/static/media/AccordionSlideMobile.0677b2e3dff73630d587.png",
     "static/media/actionBg.png": "/lead-advisors/static/media/actionBg.492cb9103e7cee846003.png",
@@ -14,10 +14,10 @@
     "static/media/Vector2.svg": "/lead-advisors/static/media/Vector2.2dfc15066e6cc4cab69ff00379ed90e8.svg",
     "index.html": "/lead-advisors/index.html",
     "main.d7dceabe.css.map": "/lead-advisors/static/css/main.d7dceabe.css.map",
-    "main.4556dee5.js.map": "/lead-advisors/static/js/main.4556dee5.js.map"
+    "main.b14d9dc7.js.map": "/lead-advisors/static/js/main.b14d9dc7.js.map"
   },
   "entrypoints": [
     "static/css/main.d7dceabe.css",
-    "static/js/main.4556dee5.js"
+    "static/js/main.b14d9dc7.js"
   ]
 }
