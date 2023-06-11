@@ -1,0 +1,80 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.4) ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.modal__content{
+    padding: 20px;
+    width: 20vw;
+    transform: scale(0.5);
+    background-color: white;
+    z-index: 800;
+    min-height: 35vh;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.modal__content.active{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.modal__content h1{
+    color: #162C4E;
+}
+
+.modal__content i{
+    position: relative;
+    color: grey;
+    left: 50%;
+}
+
+.modal__content .button{
+    width: 200px;
+    height: 50px;
+    background: #1D4169;
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items:center;
+    user-select: none;
+    justify-content: center;
+}
+
+.modal__content .button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .modal__content{
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1024px) {
+    .modal__content{
+        width: 30vw;
+    }
+}

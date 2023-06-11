@@ -1,0 +1,89 @@
+.container {
+    width: 65vw;
+    margin-right: 10vw;
+    padding: 0 20px;
+}
+
+.slides {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.slide {
+    list-style-type: none;
+    height: 470px;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    background-image: url("/src/misc/AccordionSlide.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    transition:all 500ms linear;
+}
+
+.action{
+    background: url("/src/misc/actionBg.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 1px;
+}
+
+
+.action.active{
+    background: #162C4E;
+}
+
+.action .title{
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 24px;
+}
+
+.action span{
+    margin-bottom: 20%;
+}
+
+
+.slide__content{
+    display: block;
+    width: 200px;
+    padding: 20px;
+    transition: transform 200ms linear;
+    transform: translate(-200px);
+    color:#fff;
+}
+
+.slide.active {
+    width:80%;
+}
+
+.slide__content.active{
+    transform: translate(0);
+    transition: transform 300ms linear 200ms;
+}
+
+.moreInfo{
+    border: 2px solid white;
+    padding: 13px;
+    width: 9vw;
+    text-align: center;
+    border-left: 4px solid white;
+}
+
+
+.slide-content p{
+    margin-top: 0;
+    color: #a5adba;
+}
+
+

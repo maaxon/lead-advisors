@@ -1,0 +1,13 @@
+.events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+
+.events h1{
+    color: grey;
+    font-size: 38px;
+}
