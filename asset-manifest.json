@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lead-advisors/static/css/main.d7dceabe.css",
+    "main.js": "/lead-advisors/static/js/main.4556dee5.js",
+    "static/media/AccordionSlide.png": "/lead-advisors/static/media/AccordionSlide.d11045f3833804e38f9d.png",
+    "static/media/AccordionSlideMobile.png": "/lead-advisors/static/media/AccordionSlideMobile.0677b2e3dff73630d587.png",
+    "static/media/actionBg.png": "/lead-advisors/static/media/actionBg.492cb9103e7cee846003.png",
+    "static/media/seconds.svg": "/lead-advisors/static/media/seconds.44a9a7ccffc467a3c9f899d43a97c94b.svg",
+    "static/media/Group.svg": "/lead-advisors/static/media/Group.a8b3ac1a4e6d4baa5053f594386ea476.svg",
+    "static/media/minutes.svg": "/lead-advisors/static/media/minutes.70856c7238809b2402e84cccecbabd20.svg",
+    "static/media/hours.svg": "/lead-advisors/static/media/hours.7cf09bc0036698acef677278faf5b028.svg",
+    "static/media/days.svg": "/lead-advisors/static/media/days.6ae75a8fa7ef0c0a03ce278a76a57524.svg",
+    "static/media/Vector.svg": "/lead-advisors/static/media/Vector.72b4ea7f628440cf52a4f679c7bfb47b.svg",
+    "static/media/Vector2.svg": "/lead-advisors/static/media/Vector2.2dfc15066e6cc4cab69ff00379ed90e8.svg",
+    "index.html": "/lead-advisors/index.html",
+    "main.d7dceabe.css.map": "/lead-advisors/static/css/main.d7dceabe.css.map",
+    "main.4556dee5.js.map": "/lead-advisors/static/js/main.4556dee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7dceabe.css",
+    "static/js/main.4556dee5.js"
+  ]
+}
