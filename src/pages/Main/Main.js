@@ -44,7 +44,7 @@ function Main() {
                 <Timer/>
 
                 <div className="eventLink">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>Check our event page when you wait:</p>
                     <a href={"https://yandex.by/"}><div><span>go to event</span>
                         <i aria-hidden="true" className="fa fa-arrow-right"></i></div></a>
                 </div>
